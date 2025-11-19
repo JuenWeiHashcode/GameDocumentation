@@ -6580,7 +6580,7 @@
         <mxCell id="laUsq0gpfMv6TY25qKIx-58" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;public static bool TryGetChooseOption(this TagParser.CustomTagWrapper data, out string optionId)&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1010" y="2570" width="290" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="laUsq0gpfMv6TY25qKIx-59" value="*Extension Method to check does the extracted data match with pattern of Choose type buff" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="laUsq0gpfMv6TY25qKIx-59" value="*Extension Method to check does the extracted data match with pattern of Choose type buff" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1320" y="2600" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="laUsq0gpfMv6TY25qKIx-60" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -6608,7 +6608,7 @@
           <mxGeometry x="1360" y="2720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="laUsq0gpfMv6TY25qKIx-65" value="Return Is Choose type buff or not" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="2720" width="120" height="60" as="geometry" />
+          <mxGeometry x="1530" y="2720" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
