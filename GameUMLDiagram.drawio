@@ -6123,7 +6123,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5sGtACy0rmpFappQay-n" name="DRAFT">
-    <mxGraphModel dx="2431" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1603" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6630,7 +6630,7 @@
         <mxCell id="kVsmx_LwtTttUpHnnr21-16" parent="kVsmx_LwtTttUpHnnr21-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="DB" vertex="1">
           <mxGeometry height="80" width="60" x="15" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="kVsmx_LwtTttUpHnnr21-17" parent="kVsmx_LwtTttUpHnnr21-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data Casting/ Converstion/ Validation" vertex="1">
+        <mxCell id="kVsmx_LwtTttUpHnnr21-17" parent="kVsmx_LwtTttUpHnnr21-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data Casting /&lt;div&gt;&amp;nbsp;Local Cache/ Validation&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="220" y="50" as="geometry" />
         </mxCell>
         <mxCell id="kVsmx_LwtTttUpHnnr21-34" edge="1" parent="kVsmx_LwtTttUpHnnr21-1" source="kVsmx_LwtTttUpHnnr21-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;" target="kVsmx_LwtTttUpHnnr21-17">
@@ -6661,7 +6661,7 @@
         <mxCell id="kVsmx_LwtTttUpHnnr21-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Presenter" vertex="1">
           <mxGeometry height="190" width="200" x="1690" y="270" as="geometry" />
         </mxCell>
-        <mxCell id="kVsmx_LwtTttUpHnnr21-19" parent="kVsmx_LwtTttUpHnnr21-2" style="rounded=0;whiteSpace=wrap;html=1;" value="Leaderboard Logic (pagination), Cache, Event Lisntener" vertex="1">
+        <mxCell id="kVsmx_LwtTttUpHnnr21-19" parent="kVsmx_LwtTttUpHnnr21-2" style="rounded=0;whiteSpace=wrap;html=1;" value="Leaderboard Logic, Event Lisntener" vertex="1">
           <mxGeometry height="60" width="190" x="5" y="30" as="geometry" />
         </mxCell>
         <mxCell id="kVsmx_LwtTttUpHnnr21-23" edge="1" parent="kVsmx_LwtTttUpHnnr21-2" source="kVsmx_LwtTttUpHnnr21-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kVsmx_LwtTttUpHnnr21-22" value="">
@@ -6806,6 +6806,9 @@
         <mxCell id="kVsmx_LwtTttUpHnnr21-82" parent="kVsmx_LwtTttUpHnnr21-54" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="«interface»&lt;br&gt;&lt;b&gt;ILeaderboardData&lt;/b&gt;&lt;div&gt;&lt;b&gt;Provider&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="110" x="180" y="30" as="geometry" />
         </mxCell>
+        <mxCell id="kVsmx_LwtTttUpHnnr21-81" parent="kVsmx_LwtTttUpHnnr21-54" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="«interface»&lt;br&gt;&lt;b&gt;ILeaderboard&amp;lt;T&amp;gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="180" y="110" as="geometry" />
+        </mxCell>
         <mxCell id="kVsmx_LwtTttUpHnnr21-61" edge="1" parent="1" source="kVsmx_LwtTttUpHnnr21-63" style="edgeStyle=none;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="kVsmx_LwtTttUpHnnr21-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -6816,9 +6819,6 @@
         </mxCell>
         <mxCell id="kVsmx_LwtTttUpHnnr21-63" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Presenter" vertex="1">
           <mxGeometry height="190" width="200" x="1690" y="540" as="geometry" />
-        </mxCell>
-        <mxCell id="kVsmx_LwtTttUpHnnr21-81" parent="kVsmx_LwtTttUpHnnr21-63" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="«interface»&lt;br&gt;&lt;b&gt;ILeaderboard&amp;lt;T&amp;gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="50" width="110" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="kVsmx_LwtTttUpHnnr21-74" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="View" vertex="1">
           <mxGeometry height="190" width="320" x="2030" y="540" as="geometry" />
