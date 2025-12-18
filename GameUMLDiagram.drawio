@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.6" pages="11">
   <diagram name="ScriptableObject" id="70KQPLMcxqGxXbSotcGI">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7075,6 +7075,89 @@
         </mxCell>
         <mxCell id="M9Y49W75dh19vFPJs-mt-48" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;i&gt;(Activate Context&#39;s Component )&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="630" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Wv1glmkhq09yEtApLE8A" name="DRAFT (NEW)">
+    <mxGraphModel dx="1722" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-10" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-11" connectable="0" parent="zBwQ32A4HwPTuaKUe81r-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Inherit" vertex="1">
+          <mxGeometry relative="1" x="0.0914" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardAttribute&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-12" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-15" connectable="0" parent="zBwQ32A4HwPTuaKUe81r-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Inherit" vertex="1">
+          <mxGeometry relative="1" x="0.2619" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardActionAttribute&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardTraitAttribute&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="420" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-19" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-5" value="Inherit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardActionAttribute&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-24" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-25" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-26" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-27" connectable="0" parent="zBwQ32A4HwPTuaKUe81r-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Inherit" vertex="1">
+          <mxGeometry relative="1" x="-0.7739" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardBaseActionAttribute&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="160" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardTargetTypeAttribute&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="460" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardEffectAttribute&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="520" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-8" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;EG.&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="40" width="50" x="370" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SummonCardOnSlotsAttribute" vertex="1">
+          <mxGeometry height="30" width="175" x="425" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AddArmorAttribute" vertex="1">
+          <mxGeometry height="30" width="160" x="465" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AddMaxHealthAttribute" vertex="1">
+          <mxGeometry height="30" width="130" x="525" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Heal&lt;div&gt;Attribute&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="50" x="270" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Armor&lt;div&gt;Attribute&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="50" x="140" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Damage&lt;div&gt;Attribute&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="50" x="205" y="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
