@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7" pages="11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="11">
   <diagram name="ScriptableObject" id="70KQPLMcxqGxXbSotcGI">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -6261,20 +6261,38 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Wv1glmkhq09yEtApLE8A" name="DRAFT (NEW)">
-    <mxGraphModel dx="1722" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="1627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zBwQ32A4HwPTuaKUe81r-10" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-2" value="">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="50" />
+              <mxPoint x="230" y="50" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="zBwQ32A4HwPTuaKUe81r-11" connectable="0" parent="zBwQ32A4HwPTuaKUe81r-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Inherit" vertex="1">
           <mxGeometry relative="1" x="0.0914" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-36" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardAttribute&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="170" y="70" as="geometry" />
+        <mxCell id="wdb4gyABTV5ibprQCbSF-20" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="wdb4gyABTV5ibprQCbSF-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="50" />
+              <mxPoint x="600" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-21" connectable="0" parent="wdb4gyABTV5ibprQCbSF-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Inherit" vertex="1">
+          <mxGeometry relative="1" x="0.1426" y="-1" as="geometry">
+            <mxPoint x="18" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;CardAttribute&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="-50" as="geometry" />
         </mxCell>
         <mxCell id="zBwQ32A4HwPTuaKUe81r-12" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-4">
           <mxGeometry relative="1" as="geometry" />
@@ -6287,58 +6305,151 @@
         <mxCell id="zBwQ32A4HwPTuaKUe81r-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardActionAttribute&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="170" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardTraitAttribute&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="420" y="150" as="geometry" />
-        </mxCell>
         <mxCell id="zBwQ32A4HwPTuaKUe81r-19" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-5" value="Inherit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-13" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" target="wdb4gyABTV5ibprQCbSF-12" value="Inherit">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zBwQ32A4HwPTuaKUe81r-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardActionAttribute&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="170" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-24" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-22">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-24" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;dashed=1;dashPattern=8 8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="wdb4gyABTV5ibprQCbSF-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="560" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-25" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-23">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="wdb4gyABTV5ibprQCbSF-16" connectable="0" parent="zBwQ32A4HwPTuaKUe81r-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Inherit" vertex="1">
+          <mxGeometry relative="1" x="0.6938" y="-1" as="geometry">
+            <mxPoint x="-18" y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-26" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-26" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;dashed=1;dashPattern=8 8;" target="wdb4gyABTV5ibprQCbSF-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="530" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="zBwQ32A4HwPTuaKUe81r-27" connectable="0" parent="zBwQ32A4HwPTuaKUe81r-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Inherit" vertex="1">
           <mxGeometry relative="1" x="-0.7739" y="-2" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="7" y="48" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zBwQ32A4HwPTuaKUe81r-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardBaseActionAttribute&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="140" x="160" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardTargetTypeAttribute&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="160" x="460" y="180" as="geometry" />
+        <mxCell id="wdb4gyABTV5ibprQCbSF-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CardBaseAction&amp;lt;T,K&amp;gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="1380" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardEffectAttribute&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="130" x="520" y="210" as="geometry" />
+        <mxCell id="wdb4gyABTV5ibprQCbSF-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;CardAttribute&lt;/div&gt;&lt;div&gt;ContextBase&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1210" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-8" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;EG.&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="40" width="50" x="370" y="145" as="geometry" />
+        <mxCell id="wdb4gyABTV5ibprQCbSF-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CardAttribute&lt;div&gt;ExecutionContext&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1130" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SummonCardOnSlotsAttribute" vertex="1">
-          <mxGeometry height="30" width="175" x="425" y="290" as="geometry" />
+        <mxCell id="wdb4gyABTV5ibprQCbSF-4" edge="1" parent="1" source="wdb4gyABTV5ibprQCbSF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="wdb4gyABTV5ibprQCbSF-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="130" as="sourcePoint" />
+            <mxPoint x="980" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AddArmorAttribute" vertex="1">
-          <mxGeometry height="30" width="160" x="465" y="320" as="geometry" />
+        <mxCell id="wdb4gyABTV5ibprQCbSF-5" connectable="0" parent="wdb4gyABTV5ibprQCbSF-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Inherit" vertex="1">
+          <mxGeometry relative="1" x="0.0914" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AddMaxHealthAttribute" vertex="1">
-          <mxGeometry height="30" width="130" x="525" y="350" as="geometry" />
+        <mxCell id="wdb4gyABTV5ibprQCbSF-7" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Namespace Wrapper" vertex="1">
+          <mxGeometry height="130" width="200" x="-60" y="145" as="geometry" />
         </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Heal&lt;div&gt;Attribute&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="50" x="270" y="540" as="geometry" />
+        <mxCell id="wdb4gyABTV5ibprQCbSF-6" parent="wdb4gyABTV5ibprQCbSF-7" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardActionAttribute&lt;/div&gt;&lt;div&gt;WrapperBase&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Armor&lt;div&gt;Attribute&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="50" x="140" y="540" as="geometry" />
+        <mxCell id="wdb4gyABTV5ibprQCbSF-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="T = CardActionAttribute&lt;div&gt;K = CardBaseAttributeWrapper&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="1350" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Damage&lt;div&gt;Attribute&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="50" x="205" y="540" as="geometry" />
+        <mxCell id="wdb4gyABTV5ibprQCbSF-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Des&amp;nbsp; : Attribute that card might have" vertex="1">
+          <mxGeometry height="30" width="240" x="305" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Des&amp;nbsp; : Attribute that card Must hold" vertex="1">
+          <mxGeometry height="30" width="240" x="310" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;eg.&lt;/div&gt;ApplyWeakAction" vertex="1">
+          <mxGeometry height="50" width="115" x="365" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Defense" vertex="1">
+          <mxGeometry height="40" width="75" x="365" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Attack" vertex="1">
+          <mxGeometry height="40" width="75" x="365" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-30" edge="1" parent="1" source="wdb4gyABTV5ibprQCbSF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;" target="wdb4gyABTV5ibprQCbSF-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="260" />
+              <mxPoint x="620" y="260" />
+              <mxPoint x="620" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-31" connectable="0" parent="wdb4gyABTV5ibprQCbSF-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Inherit" vertex="1">
+          <mxGeometry relative="1" x="0.0345" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CardTargetType&lt;div&gt;Attribute&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-18" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Namespace Wrapper" vertex="1">
+          <mxGeometry height="130" width="200" x="677.61" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-19" parent="wdb4gyABTV5ibprQCbSF-18" style="rounded=1;whiteSpace=wrap;html=1;" value="CardTargetType&lt;div&gt;AttributeWrapper&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Des&amp;nbsp; : Attribute that card Must hold" vertex="1">
+          <mxGeometry height="30" width="240" x="630" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-28" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="TargetSe&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;lf&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="75" x="677.61" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="TargetOpponent" vertex="1">
+          <mxGeometry height="40" width="135" x="677.61" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-32" edge="1" parent="1" source="wdb4gyABTV5ibprQCbSF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="wdb4gyABTV5ibprQCbSF-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="260" />
+              <mxPoint x="620" y="260" />
+              <mxPoint x="620" y="400" />
+              <mxPoint x="678" y="400" />
+            </Array>
+            <mxPoint x="750" y="270" as="sourcePoint" />
+            <mxPoint x="815" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-33" connectable="0" parent="wdb4gyABTV5ibprQCbSF-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Inherit" vertex="1">
+          <mxGeometry relative="1" x="0.0345" as="geometry">
+            <mxPoint y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CardEffectAttribute" vertex="1">
+          <mxGeometry height="60" width="120" x="960" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-36" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;" target="wdb4gyABTV5ibprQCbSF-34" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="50" />
+              <mxPoint x="1020" y="50" />
+            </Array>
+            <mxPoint x="700" y="220" as="sourcePoint" />
+            <mxPoint x="750" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-37" connectable="0" parent="wdb4gyABTV5ibprQCbSF-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Inherit" vertex="1">
+          <mxGeometry relative="1" x="0.7014" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wdb4gyABTV5ibprQCbSF-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Des : Attribute provide features for the cards" vertex="1">
+          <mxGeometry height="30" width="250" x="490" y="-40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
