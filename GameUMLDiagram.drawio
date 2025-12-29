@@ -6261,16 +6261,17 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Wv1glmkhq09yEtApLE8A" name="DRAFT (NEW)">
-    <mxGraphModel dx="1892" dy="1627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="1539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-10" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-2" value="">
+        <mxCell id="zBwQ32A4HwPTuaKUe81r-10" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-4" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="425" y="50" />
               <mxPoint x="230" y="50" />
             </Array>
+            <mxPoint x="229.9655172413793" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zBwQ32A4HwPTuaKUe81r-11" connectable="0" parent="zBwQ32A4HwPTuaKUe81r-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Inherit" vertex="1">
@@ -6294,17 +6295,6 @@
         <mxCell id="zBwQ32A4HwPTuaKUe81r-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;CardAttribute&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="365" y="-50" as="geometry" />
         </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-12" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-15" connectable="0" parent="zBwQ32A4HwPTuaKUe81r-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Inherit" vertex="1">
-          <mxGeometry relative="1" x="0.2619" y="2" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zBwQ32A4HwPTuaKUe81r-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardActionAttribute&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="170" y="180" as="geometry" />
-        </mxCell>
         <mxCell id="zBwQ32A4HwPTuaKUe81r-19" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="zBwQ32A4HwPTuaKUe81r-5" value="Inherit">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -6312,7 +6302,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zBwQ32A4HwPTuaKUe81r-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;CardActionAttribute&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="170" y="300" as="geometry" />
+          <mxGeometry height="60" width="120" x="170" y="195" as="geometry" />
         </mxCell>
         <mxCell id="zBwQ32A4HwPTuaKUe81r-24" edge="1" parent="1" source="zBwQ32A4HwPTuaKUe81r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;dashed=1;dashPattern=8 8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="wdb4gyABTV5ibprQCbSF-15">
           <mxGeometry relative="1" as="geometry">
@@ -6373,7 +6363,7 @@
           <mxGeometry height="30" width="240" x="310" y="430" as="geometry" />
         </mxCell>
         <mxCell id="wdb4gyABTV5ibprQCbSF-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;eg.&lt;/div&gt;ApplyWeakAction" vertex="1">
-          <mxGeometry height="50" width="115" x="365" y="330" as="geometry" />
+          <mxGeometry height="50" width="115" x="365" y="310" as="geometry" />
         </mxCell>
         <mxCell id="wdb4gyABTV5ibprQCbSF-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Defense" vertex="1">
           <mxGeometry height="40" width="75" x="365" y="490" as="geometry" />
